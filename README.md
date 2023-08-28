@@ -3,7 +3,7 @@
 
 ### Dataset
 
-Class B
+- Class B : [BaiduNetDisk](https://pan.baidu.com/s/1JHxj2oIWKyXlvcbKsjJKuA?pwd=GGLL)
 
 ### Install dependencies
 
