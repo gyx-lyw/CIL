@@ -1,6 +1,10 @@
 # Official code for CCNet with ITBL for indoor crowd counting
 ## Code
 
+### Dataset
+
+Class B
+
 ### Install dependencies
 
 torch >= 1.0 torchvision opencv numpy scipy  
