@@ -1,5 +1,4 @@
 # Official code for CCNet with ITBL for indoor crowd counting
-## Code
 
 ### Dataset
 
