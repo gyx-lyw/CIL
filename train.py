@@ -43,8 +43,6 @@ def parse_args():
 
     parser.add_argument('--use-background', type=bool, default=True,
                         help='whether to use background modelling')
-    parser.add_argument('--sigma', type=float, default=8.0,
-                        help='sigma for likelihood')
     parser.add_argument('--background-ratio', type=float, default=0.1,
                         help='background ratio')
     args = parser.parse_args()
