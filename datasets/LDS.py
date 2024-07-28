@@ -28,11 +28,10 @@ def cal_innner_area(c_left, c_up, c_right, c_down, bbox):
 
 
 class Crowd(data.Dataset):
-    def __init__(self, root_path, b, crop_size,
+    def __init__(self, root_path, crop_size,
                  downsample_ratio, is_gray=False,
                  method='train'):
         self.root_path = root_path
-        self.b = b
         self.im_list = sorted(glob(os.path.join(self.root_path, '*.jpg')))
         if method not in ['train', 'val']:
             raise Exception("not implement")
