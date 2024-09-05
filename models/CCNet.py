@@ -89,7 +89,7 @@ class ParC_block(nn.Module):
         inplanes: int,
         planes: int,
         stride: int = 1,
-        global_kernel_size = 32,
+        global_kernel_size = 96,
         use_pe = True,
         downsample: Optional[nn.Module] = None,
         groups: int = 1,
